@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- <h2>Fill in the form</h2> -->
+    <form action="#">
+        <label for="name">
+            1. Name: <input type="text" id="name" placeholder="Enter your name...">
+        </label>
+        <label for="email">
+            2. Email: <input type="email" name="email" id="email" placeholder="Enter your email...">
+        </label>
+        <label for="number">
+            3. Number: <input type="number" name="number" id="number" placeholder="Enter your phone number..">
+        </label>
+        <fieldset>
+            <legend>Select Gender</legend>
+            <label for="male">
+                <input type="radio" name="gender" id="male"> Male
+            </label>
+            <label for="female">
+                <input type="radio" name="gender" id="female"> Female
+            </label>
+            <label for="common">
+                <input type="radio" name="gender" id="common"> Common
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Terms & Condition</legend>
+            <label for="rules-1">
+                <input type="checkbox" name="rules-1" id="rules-1"> Check the information that you fill up
+            </label>
+            <label for="rules-2">
+                <input type="checkbox" name="rules-2" id="rules-2"> Agree with the terms and condition
+            </label>
+        </fieldset>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

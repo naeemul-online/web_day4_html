@@ -1,0 +1,30 @@
+header {
+   background-color: grey;
+}
+nav > ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 10px;
+    padding: 10px;    
+}
+nav ul li:hover {
+    background-color: yellow;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li .dropdown {
+    background-color: grey;   
+    display: none;    
+    position: absolute;
+}
+nav ul li:hover > .dropdown {
+    display: block;
+}
